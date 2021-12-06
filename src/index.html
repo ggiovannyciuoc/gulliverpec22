@@ -38,7 +38,8 @@
               sizes="(max-width: 710px) 400px,
                      (max-width: 600px) 600px,
                      (max-width: 991px) 1200px" class="clip-path-1 bounce" style="width:50%;height:50%;">
-
+ 
+              
           </div>
           
           <p>Los viajes de gulliver reflejan un sistema que generaba una sociedad superflua y mediocre que se dejaba dominar por a opresión y leyes fundamentadas desde el autoritarismo. En cada escenario gulliver va mostrando cómo se diferencian las clases sociales, cómo se comportan, la marginalidad y el abuso que hace que las personas pierdan su autoestima y no se sientan capaces de salir adelante y hay conformismo en sus acciones. De cómo se aprovechan unos de otros, de como la ciencia si no es utilizada para ponerse en práctica o sirve de nada, que la sabiduría hay que transmitirla por que envejece y muere con el sabio sino la enseña.</p> 
@@ -49,10 +50,20 @@
 
         <aside>
           
-          <img srcset=" ./images/resolution/resolution-high.jpg 600w,
-                        ./images/resolution/resolution-medium.jpg  1.5x,
-                        ./images/resolution/resolution-high.jpg  2x"
-                        src="./images/resolution/resolution-high.jpg" alt="LVDG">
+
+          <picture>
+            <source media="(max-width: 799px)" srcset="./images/picture/pictureZoom.jpg">
+            <source media="(min-width: 800px)" srcset="./images/picture/picture.jpg">
+            <img src="./images/picture/picture.jpg" alt="Los viajes de Gulliver">
+          </picture>
+          
+          <img srcset=" ./images/resolution/airplane-medium.jpg 561w,
+                        ./images/resolution/airplane-small.jpg  1.5x,
+                        ./images/resolution/airplane-small.jpg  2x"
+                        src="./images/resolution/airplane-small.jpg" alt="LVDG">
+
+          
+                        
          </aside>
       </main>
 

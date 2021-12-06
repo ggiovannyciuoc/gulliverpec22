@@ -73,9 +73,17 @@
         </ul>
         
     </div>
-    <h3>La película</h3>
-    <a href="https://www1.cuevana3.so/3072/los-viajes-de-gulliver"><img src="./images/movie.jpg" alt="La película " title=" Clic para ver La película" style="width:80%;height: auto;"></a>
-   <p>Clic en la imagen</p>
+    
+    <picture>
+      <source media="(max-width: 799px)" srcset="./images/movieZoom.jpg">
+      <source media="(min-width: 800px)" srcset="./images/movie.jpg">
+      <img src="./images/movie.jpg" alt="Los viajes de Gulliver" >
+    </picture>
+
+    <div class="ver-pelicula">
+    
+      <a href="https://www.sensacine.com/peliculas/pelicula-140472/" target="_blank" >Ver la pelicula</a>
+    </div>
     </aside>
     
   </main>
