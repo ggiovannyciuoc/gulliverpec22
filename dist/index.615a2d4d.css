@@ -39,10 +39,7 @@ aside img{
 }
 
 .clip-path-1{
-  
-  /*clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);*/
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-  /*clip-path: circle(45.0% at 50% 50%);*/
   padding: 0px;
   margin: 0px;
 }
